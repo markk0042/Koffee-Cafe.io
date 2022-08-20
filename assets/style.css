@@ -43,13 +43,14 @@ body, html {
   }
 
   /* Rounded border */
-hr.rounded {
+  hr.rounded {
     border-top: 8px solid #bbb;
     border-radius: 5px;
-    width: 50px;
+    text-align: center;
+    width: 60px;
   }
+
 .second-heading{
-    display: block;
     text-align: center;
     font-size: 1.5em;
     margin-block-start: 0.83em;
