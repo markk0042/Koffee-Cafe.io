@@ -39,6 +39,19 @@ body, html {
   color: white;
 }
 
+.button{
+  text-decoration: none;
+  background-color: sandybrown;
+  border-radius: 15px;
+  border: none;
+}
+
+.button a:link { text-decoration: none; }
+
+.button:hover {
+  background-color: darkorange;
+}
+
 
 /* Main Image for Company */
 .center {
