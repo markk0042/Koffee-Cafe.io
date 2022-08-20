@@ -44,6 +44,7 @@ body, html {
   background-color: sandybrown;
   border-radius: 15px;
   border: none;
+  font-size: 22px;
 }
 
 .button a:link { text-decoration: none; }
