@@ -35,6 +35,7 @@ body, html {
 
 /* Main Image for Company */
 .center {
+  text-align: center;
     display: block;
     margin-top: 20px;
     margin-left: auto;
@@ -59,3 +60,79 @@ body, html {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+
+/*Table*/
+.openinghours {
+  position: relative;
+  text-align: center;
+  font-family:Lucida Console;
+  border-radius:4px;
+  margin:10px;
+  box-shadow: 0 0 10px black;
+  padding:0 10px 0 10px;
+  overflow: hidden;
+  display: inline-block;
+  min-width: 100%;
+  justify-content: center;
+
+
+}
+.openinghourscontent {
+  text-align: center;
+  
+
+  
+}
+.openinghourscontent h2 {
+  display:block;
+  text-align:center;
+  margin-top:.33em;
+  position: relative;
+  display: inline-block;
+}
+
+.today {
+  color: #8AC007;
+}
+.opening-hours-table tr td:first-child {
+  font-weight:bold;
+  text-align: center;
+  display: inline;
+  justify-content: center;
+}
+#open-status {
+  display:block;
+  margin-top:-1em;
+  text-align:center;
+  border:dotted lightgrey 3px;
+}
+.openorclosed:after {
+  content:" open during these hours:";
+}
+.open {
+  color:green;
+}
+.open:after {
+  content:" Open";
+  color: #6C0;
+}
+.closed:after {
+  content:" Closed";
+  color: red;
+}
+.opening-hours-table tr td {
+  padding:5px;
+}
+
+/*Contact us form*/
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+}
+
+  
